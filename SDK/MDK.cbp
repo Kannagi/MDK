@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MDK" />
+		<Option pch_mode="2" />
+		<Option compiler="mgdk" />
+		<Build>
+			<Target title="bin">
+				<Option output="bin/MDK.bin" prefix_auto="1" extension_auto="0" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="mdk" />
+				<Option parameters=" &amp; dgen MDK.bin" />
+				<Compiler>
+					<Add option="-O1" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="MDK/MD.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MDK/MDK.h" />
+		<Unit filename="MDK/MD_Clear.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MDK/MD_Load.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MDK/MD_arg.h" />
+		<Unit filename="MDK/MD_arge.h" />
+		<Unit filename="MDK/asm.h" />
+		<Unit filename="_start.s" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

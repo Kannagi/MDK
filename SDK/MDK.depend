@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1612779721 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/_start.s
+
+1612780636 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/main.c
+	"MDK/MDK.h"
+	"MDK/asm.h"
+	"res/tile1pal.inc"
+	"res/tile1.inc"
+	"res/map.inc"
+
+1612781871 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MDK.h
+
+1612779852 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD.c
+	"MDK.h"
+	"asm.h"
+	"MD_arg.h"
+
+1612717942 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/asm.h
+
+1612715710 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_arg.h
+
+1612780702 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_Clear.c
+	"MDK.h"
+	"asm.h"
+	"MD_arge.h"
+
+1612716216 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_arge.h
+
+1612714499 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/tile1pal.inc
+
+1612701912 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/tile1.inc
+
+1612714159 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/map.inc
+
+1612780603 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_Load.c
+	"MDK.h"
+	"asm.h"
+	"MD_arge.h"
+
