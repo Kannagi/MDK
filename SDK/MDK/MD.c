@@ -4,7 +4,6 @@
 
 #include "MD_arg.h"
 
-
 static inline void Joypad(u16 joypad,u8 *event,u16 test)
 {
 	if(joypad&test)
@@ -80,7 +79,8 @@ u16 MD_Joypad2(MD_Joypads *pad)
 	return joypad;
 }
 
-void MD_Scroll()
+
+void MD_ScrollA()
 {
 	asm (
 
@@ -88,10 +88,25 @@ void MD_Scroll()
 	"lea  VDP_CTRL,%a1\n"
 
 	"move.l #0x40000000+(0x18000000)+3,(%a1)\n"
-	"move.w  MD_Scrollx,(%a0)\n	"
+	"move.w  MD_ScrollAx,(%a0)\n	"
 
 	"move.l #0x40000000+(0x10),(%a1)\n"
-	"move.w  MD_Scrolly,(%a0)\n	"
+	"move.w  MD_ScrollAy,(%a0)\n	"
+	);
+}
+
+void MD_ScrollB()
+{
+	asm (
+
+	"lea  VDP_DATA,%a0\n"
+	"lea  VDP_CTRL,%a1\n"
+
+	"move.l #0x40020000+(0x18000000)+3,(%a1)\n"
+	"move.w  MD_ScrollBx,(%a0)\n	"
+
+	"move.l #0x40020000+(0x10),(%a1)\n"
+	"move.w  MD_ScrollBy,(%a0)\n	"
 	);
 }
 

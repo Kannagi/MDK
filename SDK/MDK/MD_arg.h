@@ -18,6 +18,12 @@ u32 MD_arg4_u32;
 
 MD_Sprites MD_Sprite[80];
 
-u16 MD_Scrollx;
-u16 MD_Scrolly;
+u16 MD_ScrollAx;
+u16 MD_ScrollAy;
+
+u16 MD_ScrollBx;
+u16 MD_ScrollBy;
+
+u16 MD_PAL_ID;
+u16 MD_BG_ID;
 #endif

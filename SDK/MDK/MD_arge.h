@@ -17,6 +17,8 @@ extern u32 MD_arg2_u32;
 extern u32 MD_arg3_u32;
 extern u32 MD_arg4_u32;
 
+extern u16 MD_PAL_ID;
+extern u16 MD_BG_ID;
 #endif
 
 

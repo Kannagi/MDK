@@ -22,10 +22,25 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="MDK/MDK.h" />
+		<Unit filename="MDK/MD_BG.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="MDK/MD_Clear.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="MDK/MD_Load.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MDK/MD_Print.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MDK/MD_Print16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MDK/MD_Print8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MDK/MD_PrintBCD.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="MDK/MD_arg.h" />

@@ -37,6 +37,11 @@
 #define MD_BUTTON_DOWNW  2
 #define MD_BUTTON_UP     3
 
+#define MD_PAL0  0x00
+#define MD_PAL1  0x20
+#define MD_PAL2  0x40
+#define MD_PAL3  0x60
+
 #define MD_SPRPAL0  0x0000
 #define MD_SPRPAL1  0x2000
 #define MD_SPRPAL2  0x4000
@@ -58,8 +63,22 @@ typedef struct
 }MD_Joypads;
 
 extern MD_Sprites MD_Sprite[80];
-extern u16 MD_Scrollx;
-extern u16 MD_Scrolly;
+extern u16 MD_ScrollAx;
+extern u16 MD_ScrollAy;
+extern u16 MD_ScrollBx;
+extern u16 MD_ScrollBy;
+
+void MD_Prints8(s8 val,u16 x,u16 y);
+void MD_Printu8(u8 val,u16 x,u16 y);
+void MD_Printh8(u8 val,u16 x,u16 y);
+
+void MD_Prints16(s16 val,u16 x,u16 y);
+void MD_Printu16(u16 val,u16 x,u16 y);
+void MD_Printh16(u16 val,u16 x,u16 y);
+void MD_Printh32(u32 val,u16 x,u16 y);
+
+void MD_Print(const void *str,u16 x,u16 y);
+void MD_FixPal(u16 pal);
 
 u16 MD_Joypad1(MD_Joypads *pad);
 u16 MD_Joypad2(MD_Joypads *pad);
@@ -75,7 +94,9 @@ void MD_ClearVSRAM(void);
 void MD_ClearRAM(void);
 void MD_ClearSAT(void);
 
-void MD_Scroll(void);
+void MD_ScrollA(void);
+void MD_ScrollB(void);
+void MD_SelectBG(u16 bg);
 
 void MD_LoadPal(const void *palette,u16 address);
 void MD_LoadPalN(const void *palette,u16 address,u16 n);

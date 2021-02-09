@@ -1,38 +1,69 @@
 # depslib dependency file v1.0
 1612779721 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/_start.s
 
-1612780636 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/main.c
+1612875731 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/main.c
 	"MDK/MDK.h"
 	"MDK/asm.h"
 	"res/tile1pal.inc"
 	"res/tile1.inc"
 	"res/map.inc"
+	"res/megaman.inc"
+	"res/megamanpal.inc"
+	"res/fontpal.inc"
+	"res/font.inc"
 
-1612781871 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MDK.h
+1612875538 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MDK.h
 
-1612779852 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD.c
+1612860877 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD.c
 	"MDK.h"
 	"asm.h"
 	"MD_arg.h"
 
-1612717942 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/asm.h
+1612870605 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/asm.h
 
-1612715710 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_arg.h
+1612861075 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_arg.h
 
 1612780702 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_Clear.c
 	"MDK.h"
 	"asm.h"
 	"MD_arge.h"
 
-1612716216 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_arge.h
+1612861075 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_arge.h
 
-1612714499 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/tile1pal.inc
+1612822972 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/tile1pal.inc
 
-1612701912 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/tile1.inc
+1612822938 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/tile1.inc
 
 1612714159 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/map.inc
 
 1612780603 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_Load.c
+	"MDK.h"
+	"asm.h"
+	"MD_arge.h"
+
+1612823123 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/megaman.inc
+
+1612822775 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/megamanpal.inc
+
+1612825441 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/fontpal.inc
+
+1612825519 /home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/res/font.inc
+
+1612860174 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_BG.c
+
+1612875703 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_Print16.c
+	"MDK.h"
+	"asm.h"
+	"MD_arge.h"
+
+1612870816 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_Print8.c
+	"MDK.h"
+	"asm.h"
+	"MD_arge.h"
+
+1612860145 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_PrintBCD.c
+
+1612863617 source:/home/kannagi/Documents/RetroProg/Console/MegaDrive/SDK/MDK/MD_Print.c
 	"MDK.h"
 	"asm.h"
 	"MD_arge.h"
